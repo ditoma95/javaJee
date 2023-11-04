@@ -1,0 +1,22 @@
+*{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+        }
+        .conteneur{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: bisque;
+            padding: 10px 4%;
+        }
+        .liens ul{
+            display: flex;
+            gap: 15px;
+            cursor: pointer;
+        }
+        .liens ul li a{
+        	cursor: pointer;
+        }
